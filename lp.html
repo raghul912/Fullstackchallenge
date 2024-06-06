@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Login Page</title>
+    <link rel="icon" href="3d-icon-traveling-vacation.jpg" />
+  </head>
+  <body>
+    <form id="signIn" class="form" method="post" action="register.php ">
+      <h1>Login</h1>
+      <div class="input">
+        <input name="name" type="text" placeholder="username" required />
+        <box-icon type="solid" name="user"></box-icon>
+      </div>
+      <div class="input">
+        <input name="pass" type="password" placeholder="password" required />
+        <box-icon name="key"></box-icon>
+      </div>
+      <div class="rem">
+        <label><input type="checkbox" /><b>Remember me</b></label>
+        <a href="#">Forget password</a>
+      </div>
+      <button id="signInButton" name="signIn" class="button" type="submit">
+        Login
+      </button>
+      <div class="register">
+        <p>Don't have a account?<a href="re.html"> register</a></p>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

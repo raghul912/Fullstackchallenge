@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <link rel="icon" href="3d-icon-traveling-vacation.jpg" />
+  </head>
+  <body>
+    <form id="signup" class="form" method="post" action="register.php">
+      <h1>Register</h1>
+      <div class="input">
+        <input name="name" type="text" placeholder="username" required />
+        <box-icon type="solid" name="user"></box-icon>
+      </div>
+      <div class="input">
+        <input name="pass" type="password" placeholder="password" required />
+        <box-icon name="key"></box-icon>
+      </div>
+      <div class="rem">
+        <label><input type="checkbox" /><b>Remember me</b></label>
+      </div>
+      <button id="signUpButton" name="signup" class="button" type="submit">
+        Register
+      </button>
+      <div class="register now">
+        <p>Already have an account?<a href="lp.html"> Login</a></p>
+      </div>
+    </form>
+  </body>
+</html>
